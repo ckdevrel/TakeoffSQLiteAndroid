@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/classes-0758a3bafb8db63dbf9587a847ad30f3ed92e958.jar" />
+    </item>
+    <item
+        jar="/Users/Chandru-MacBook/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e19e4eec662a56a37fece564ecd6a53704ffe38f.jar" />
+    </item>
+    <item
+        jar="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/classes-33d8da7386182a4b5a77449687941cd5304e47c4.jar" />
+    </item>
+    <item
+        jar="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-f021d059dca1307b0e766891f37183119886c775.jar" />
+    </item>
+
+</items>
