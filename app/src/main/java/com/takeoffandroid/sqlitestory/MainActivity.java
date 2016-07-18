@@ -7,7 +7,7 @@ import android.widget.TextView;
 /**
  * Created by chandrasekar.kuppusa on 15-09-2015.
  */
-public class MainActivity extends BaseActivity<DBAccess> {
+public class MainActivity extends BaseActivity {
 
 
     private TextView txtName;
@@ -21,7 +21,7 @@ public class MainActivity extends BaseActivity<DBAccess> {
         findViews ();
 
         mMobile = getIntent ().getStringExtra ("mobile");
-        mAuthentication = getHelper ().getAuthenticationDetails (getHelper ().KEY_MOBILE,mMobile);
+        mAuthentication = DBAccess.init(MainActivity.this).getAuthenticationDetails (DBAccess.init(MainActivity.this).KEY_MOBILE,mMobile);
 
         txtName.setText ("Hello "+mAuthentication.getName ()+"!");
     }

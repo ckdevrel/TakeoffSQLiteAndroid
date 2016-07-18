@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 
 
-public class LoginActivity extends BaseActivity<DBAccess> implements View.OnClickListener {
+public class LoginActivity extends BaseActivity implements View.OnClickListener {
     private EditText edtMobile;
     private EditText edtPassword;
     private Button btnLogin;
@@ -57,8 +57,8 @@ public class LoginActivity extends BaseActivity<DBAccess> implements View.OnClic
             case R.id.btn_login:
 
                 if(mobile.length () > 0 && password.length () > 0) {
-                    if(getHelper ().isMobileAlreadyExists (mobile)) {
-                        if(getHelper ().isVerifyUser (mobile, password)) {
+                    if(DBAccess.init(this).isMobileAlreadyExists (mobile)) {
+                        if(DBAccess.init(this).isVerifyUser (mobile, password)) {
                             Toast.makeText (LoginActivity.this, "You are Successfully logged in", Toast.LENGTH_SHORT).show ();
                             Intent mainIntent = new Intent (LoginActivity.this,MainActivity.class);
                             mainIntent.putExtra ("mobile",mobile);
@@ -128,8 +128,8 @@ public class LoginActivity extends BaseActivity<DBAccess> implements View.OnClic
             @Override
             public void onClick (DialogInterface dialog, int which) {
 
-                if(getHelper ().isMobileAlreadyExists (et.getText ().toString ())) {
-                    Toast.makeText (LoginActivity.this, "Your password is " + getHelper ().getPasswordFromMobile (et.getText ().toString ()), Toast.LENGTH_LONG).show ();
+                if(DBAccess.init(LoginActivity.this).isMobileAlreadyExists (et.getText ().toString ())) {
+                    Toast.makeText (LoginActivity.this, "Your password is " + DBAccess.init(LoginActivity.this).getPasswordFromMobile (et.getText ().toString ()), Toast.LENGTH_LONG).show ();
                 }else{
                     Toast.makeText (LoginActivity.this, "User not found. Please register", Toast.LENGTH_LONG).show ();
 
@@ -178,9 +178,9 @@ public class LoginActivity extends BaseActivity<DBAccess> implements View.OnClic
             @Override
             public void onClick (DialogInterface dialog, int which) {
 
-                if(getHelper ().isVerifyUser (((EditText) ll.getChildAt (0)).getText ().toString (), ((EditText) ll.getChildAt (1)).getText ().toString ())) {
+                if(DBAccess.init(LoginActivity.this).isVerifyUser (((EditText) ll.getChildAt (0)).getText ().toString (), ((EditText) ll.getChildAt (1)).getText ().toString ())) {
 
-                    getHelper ().updatePassword (((EditText) ll.getChildAt (0)).getText ().toString (), ((EditText) ll.getChildAt (1)).getText ().toString (), ((EditText) ll.getChildAt (2)).getText ().toString ());
+                    DBAccess.init(LoginActivity.this).updatePassword (((EditText) ll.getChildAt (0)).getText ().toString (), ((EditText) ll.getChildAt (1)).getText ().toString (), ((EditText) ll.getChildAt (2)).getText ().toString ());
                     Toast.makeText (LoginActivity.this, "Successfully your password updated", Toast.LENGTH_LONG).show ();
 
                 }else{

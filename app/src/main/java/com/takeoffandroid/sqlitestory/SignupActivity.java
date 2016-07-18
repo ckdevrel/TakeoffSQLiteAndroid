@@ -7,7 +7,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
-public class SignupActivity extends BaseActivity<DBAccess> implements View.OnClickListener {
+public class SignupActivity extends BaseActivity implements View.OnClickListener {
     private EditText edtUsername;
     private EditText edtMobile;
     private EditText edtEmail;
@@ -50,10 +50,10 @@ public class SignupActivity extends BaseActivity<DBAccess> implements View.OnCli
             case R.id.btn_signup:
 
                 if(mobile.length () > 0 && password.length () > 0) {
-                    if(!getHelper ().isMobileAlreadyExists (mobile)) {
-                        if(!getHelper ().isVerifyUser (mobile, password)) {
+                    if(!DBAccess.init(SignupActivity.this).isMobileAlreadyExists (mobile)) {
+                        if(!DBAccess.init(SignupActivity.this).isVerifyUser (mobile, password)) {
 
-                            getHelper ().insertUserMasterObject (new Authentication (name,mobile,email, password));
+                            DBAccess.init(SignupActivity.this).insertUserMasterObject (new Authentication (name,mobile,email, password));
                             Toast.makeText (SignupActivity.this, "Registration Success", Toast.LENGTH_SHORT).show ();
                             finish ();
 

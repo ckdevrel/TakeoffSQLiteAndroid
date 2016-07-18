@@ -40,6 +40,15 @@ public class DBAccess extends SQLiteOpenHelper {
             KEY_EMAIL,
             KEY_PASSWORD};
 
+    private static DBAccess mInstance;
+
+    public static DBAccess init(Context context){
+        if(mInstance == null) {
+            mInstance = new DBAccess(context);
+        }
+
+        return mInstance;
+    }
     public DBAccess (Context context) {
         super (context, DATABASE_NAME, null, DATABASE_VERSION);
     }
@@ -48,6 +57,8 @@ public class DBAccess extends SQLiteOpenHelper {
     public void onCreate (SQLiteDatabase db) {
 
         db.execSQL (CREATE_TABLE_USERMASTER);
+
+
     }
 
     @Override

@@ -2,32 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jar="/Users/chandrasekar/Desktop/Android/My Projects/Github/TakeoffSQLiteAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/classes-0758a3bafb8db63dbf9587a847ad30f3ed92e958.jar" />
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/chandrasekar/Desktop/Android/My Projects/Github/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_79194bd469233f22bdebe57e41977d939e9d069f.jar" />
     </item>
     <item
-        jar="/Users/Chandru-MacBook/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jar="/Users/chandrasekar/Desktop/Android/My Projects/Github/TakeoffSQLiteAndroid/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e19e4eec662a56a37fece564ecd6a53704ffe38f.jar" />
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/chandrasekar/Desktop/Android/My Projects/Github/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_ffdbf82bff156ee77ab67961968accc1e5b901b3.jar" />
     </item>
     <item
-        jar="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
+        jar="/Users/chandrasekar/Desktop/Android/My Projects/Github/TakeoffSQLiteAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/classes-33d8da7386182a4b5a77449687941cd5304e47c4.jar" />
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/chandrasekar/Desktop/Android/My Projects/Github/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_ce7d0b0c28eb608c3b831d852f574cd6d9b2b11e.jar" />
     </item>
     <item
-        jar="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
+        jar="/Users/chandrasekar/Desktop/Android/My Projects/Github/TakeoffSQLiteAndroid/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/Chandru-MacBook/Desktop/Android/Android/PROJECTS/TakeOffBlog/TakeoffSQLiteAndroid/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-f021d059dca1307b0e766891f37183119886c775.jar" />
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/chandrasekar/Desktop/Android/My Projects/Github/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_d708eda52afe947adbaa937c8f96a1dcb38f5f68.jar" />
+    </item>
+    <item
+        jar="/Users/chandrasekar/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/chandrasekar/Desktop/Android/My Projects/Github/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_ee121da1be195a605ef5b3f3c3121b9e8fa65675.jar" />
+    </item>
+    <item
+        jar="/Users/chandrasekar/Desktop/Android/My Projects/Github/TakeoffSQLiteAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/chandrasekar/Desktop/Android/My Projects/Github/TakeoffSQLiteAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_47599a0a9ef803b6c81f95a9165309efcce49fd5.jar" />
     </item>
 
 </items>
